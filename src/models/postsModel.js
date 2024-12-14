@@ -26,5 +26,5 @@ export async function atualizarPost(id, novoPost) {
     const db = conexao.db("imersao-Instabytes");
     const colecao = db.collection("posts");
     const objID = ObjectId.createFromHexString(id);
-    return colecao.updateOne({_id: new ObjectId(objID)}, {$set: novoPost});
+    return colecao.updateOne({_id: new ObjectId(objID)}, {$set:novoPost});
 }
