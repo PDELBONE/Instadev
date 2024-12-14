@@ -5,7 +5,7 @@
     --font-size-base: 16px;
     --primary-color: #45474B;
     --secondary-color: #F5F7F8;
-    --tertiary-color: #379777;
+    --tertiary-color: #2fdf84;
 
     --border-radius-small: 0.25rem;
     --border-radius-medium: 0.625rem;
@@ -58,7 +58,7 @@ body {
 
 .navbar .logo strong {
     font-weight: 700;
-    color: #45474b;
+    color: #2fdf84;
 }
 
 .nav-links {
@@ -72,6 +72,7 @@ body {
 .login-btn {
     background-color: black;
     color: var(--secondary-color);
+    font-weight: bold;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius-small);
